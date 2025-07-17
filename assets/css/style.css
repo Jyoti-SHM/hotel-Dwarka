@@ -5226,6 +5226,11 @@ label {
   background-color: var(--accent-color);
   color: var(--white-color);
 }
+@media (max-width: 700px) {
+  .cs_search_area.position-relative.z-2 {
+    display: none !important;
+  }
+}
 @media (max-width: 575px) {
   .cs_scrollup {
     width: 45px;
