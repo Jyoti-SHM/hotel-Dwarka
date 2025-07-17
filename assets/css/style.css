@@ -3401,6 +3401,7 @@ label {
   top: 50%;
   transform: translateY(-50%);
   transition: all 0.3s ease;
+  color: #fff;
 }
 .cs_slider_arrows.cs_style_2 .cs_left_arrow svg,
 .cs_slider_arrows.cs_style_2 .cs_right_arrow svg {
@@ -3409,7 +3410,7 @@ label {
 }
 .cs_slider_arrows.cs_style_2 .cs_left_arrow:hover,
 .cs_slider_arrows.cs_style_2 .cs_right_arrow:hover {
-  color: var(--heading-color);
+  color: #fff;
 }
 .cs_slider_arrows.cs_style_2 .cs_left_arrow {
   left: 10%;
@@ -4904,7 +4905,6 @@ label {
  =============================================*/
 .cs_contact_location .cs_location_map {
   width: 100%;
-  filter: brightness(100%) grayscale(120%);
 }
 .cs_contact_location .cs_location_map iframe {
   width: 100%;
@@ -5208,7 +5208,7 @@ label {
   border: 1px solid var(--accent-color);
   border-radius: 50%;
   position: fixed;
-  right: 40px;
+  left: 40px;
   bottom: 40px;
   transform: translateY(120px);
   color: var(--accent-color);
@@ -6420,7 +6420,7 @@ label {
   padding: 58px 100px;
 }
 .cs_testimonial.cs_style_2 blockquote {
-  font-size: 48px;
+  font-size: 35px;
   font-style: normal;
   font-weight: 400;
   line-height: 1.33em;
